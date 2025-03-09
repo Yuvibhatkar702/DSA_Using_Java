@@ -1,0 +1,45 @@
+Can we overload the main method?
+:- yes, we can overload the main() method. But remember that the JVM always calls the original main() method. It does not call the overloaded main() method.
+
+
+A Java Constructor returns a value but, what?
+:- A Java constructor does not return any value, but it does return the reference to the current object. This means that when you create a new object, the constructor is called to initialize the object's state, and the constructor returns a reference to the newly created object.
+
+
+Can we create a program without main method?
+:- Prior to Java 7, yes, we could run Java program without main() method. But, from JDK7 main method is mandatory. The compiler will verify first, whether main() is present or not. If your Java program doesn't contain the main method, then you will get an error main method not found in the class .
+
+
+What are the six ways to use this keyword?
+6 uses of "this" keyword in java
+	Accessing class level variable.
+	Accessing class methods - default.
+	For calling other constructor of same class.
+	Using 'this' keyword as return value.
+	Passing 'this' keyword as argument to method.
+	Passing this keyword as argument to constructor.
+
+
+Why is multiple inheritance not supported in Java?
+:- Java does not support multiple inheritance because it can lead to the diamond problem.
+The diamond problem occurs when a class inherits from two classes that both inherit from a common ancestor class. This creates a situation where the subclass has two copies of the ancestor class's methods and fields. The compiler cannot determine which copy of the method or field to use, which can lead to errors.
+
+
+Why use aggregation?
+:- Aggregation platforms take care of the collection, processing, and sometimes even the presentation of data. It's an essential part of data integration. Data aggregation helps summarize data from different, disparate and multiple sources. It increases the value of information.
+
+
+Can we override the static method?
+:- The short answer is No. Static methods in Java cannot be overridden. This is because static methods are not associated with the instance of a class, but with the class itself. Therefore, when a subclass inherits a static method from its parent class, it cannot modify the behavior of the static method in any way.
+
+
+What is the covariant return type?
+What are the three usages of Java super keyword?
+Why use instance initializer block?
+What is the usage of a blank final variable?
+What is a marker or tagged interface?
+What is runtime polymorphism or dynamic method dispatch?
+What is the difference between static and dynamic binding?
+How downcasting is possible in Java?
+What is the purpose of a private constructor?
+What is object cloning?
